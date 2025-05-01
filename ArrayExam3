@@ -1,0 +1,17 @@
+package chap05;
+//[출력형식]
+//총합:___
+//평균:___
+public class ArrayExam3 {
+	public static void main(String[] args) {
+		int[] scoreArr = {98,99,100,89,88};
+		int sum = 0;
+		for(int i=0;i<scoreArr.length;i++) {
+			sum = sum + scoreArr[i];
+		}
+		System.out.println("합: "+ sum);
+		System.out.println("평균: "+(sum/scoreArr.length));
+		System.out.println("평균: "+((double)sum/scoreArr.length));
+
+	}
+}
